@@ -11,7 +11,12 @@ public class CubeControl : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        int a = 1;
+        
         rb.gameObject.SetActive(false);
+
         rb.gameObject.SetActive(true);
+
+        float b = 3.2f;
     }
 }
